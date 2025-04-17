@@ -68,7 +68,7 @@ function lib.Notify(titleText, bodyText, duration)
 
 	-- Slide in animation
 	local slideIn = TweenService:Create(Noti, TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
-		Position = UDim2.new(0.77, 0, 0.800251, 0)
+		Position = UDim2.new(0.8, 0, 0.800251, 0)
 	})
 	slideIn:Play()
 
