@@ -82,10 +82,10 @@ function NotificationLib.Notify(titleText, messageText, duration)
 
     -- Slide in
     local slideIn = TweenService:Create(Noti, TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
-        Position = UDim2.new(0.775, 0, 0.800251, 0)
+        Position = UDim2.new(0.8, 0, 0.800251, 0)
     })
     local shadowIn = TweenService:Create(Shadow, TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
-        Position = UDim2.new(0.78, 0, 0.83, 0)
+        Position = UDim2.new(0.8, 0, 0.800251, 0)
     })
 
     slideIn:Play()
